@@ -1,8 +1,8 @@
 from urllib.request import urlopen
 import certifi
 
-url="https://www.gutenberg.org/files/84/84-0.txt"
-local_name = "frankenstein.txt"
+url="https://www.gutenberg.org/cache/epub/345/pg345.txt"
+local_name = "Dracula.txt"
 
 def save_locally():
     with open(local_name, "w") as local_fp:
